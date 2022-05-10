@@ -1,0 +1,48 @@
+.container{
+  width: 100%;
+  padding: 10%;
+  background: rgb(233, 233, 255);
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.links {
+  margin-top: 10%;
+}
+
+p {
+  font-size: 15px;
+  text-align: start;
+  color: rgb(55, 55, 165);
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 80%;
+    padding: 2%;
+  }
+
+  .links {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}

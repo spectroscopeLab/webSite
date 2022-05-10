@@ -1,0 +1,19 @@
+<div class="container">
+  <h1>Equipo de trabajo</h1>
+  <div class="people" *ngFor="let person of people">
+    <div class="card">
+      <div class="card-body">
+        <img src= {{person.img}}  alt="" id="personImage">
+        <h5 class="card-title">{{person.name}}</h5>
+        <p class="card-text">{{person.info}}</p>
+        <div class="card-footer bg-transparent">
+          <ul *ngFor="let linkInfo of person.links">
+            <div class="linkInfo">
+              <a href={{linkInfo.link}}><img src={{linkInfo.platform}} alt="" id="platformImage"></a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

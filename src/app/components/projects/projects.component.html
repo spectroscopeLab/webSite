@@ -1,0 +1,24 @@
+<div class="container">
+  <h2>Trabajos Realializados</h2>
+    <div class="btn-group-toggle buttons" data-toggle="buttons">
+        <button class="btn btn-outline-primary disactive" data-toggle="collapse" data-target="#id2015" aria-expanded="false" aria-controls="collapseExample" type="checkbox" checked autocomplete="on"> 2015
+        </button>
+        <button class="btn btn-outline-primary disactive" data-toggle="collapse" data-target="#id2016" aria-expanded="false" aria-controls="collapseExample" type="checkbox" checked autocomplete="on">2016
+        </button>
+        <button class="btn btn-outline-primary disactive" data-toggle="collapse" data-target="#id2017" aria-expanded="false" aria-controls="collapseExample" type="checkbox" checked autocomplete="on">2017
+        </button>
+        <button class="btn btn-outline-primary disactive" data-toggle="collapse" data-target="#id2019" aria-expanded="false" aria-controls="collapseExample" type="checkbox" checked autocomplete="on">2019
+        </button>
+        <button class="btn btn-outline-primary disactive" data-toggle="collapse" data-target="#id2020" aria-expanded="false" aria-controls="collapseExample" type="checkbox" checked autocomplete="on">2020
+        </button>
+        <button class="btn btn-outline-primary disactive" data-toggle="collapse" data-target="#id2021" aria-expanded="false" aria-controls="collapseExample" type="checkbox" checked autocomplete="on">2021
+        </button>
+    </div>
+    <div class="project collapse" *ngFor="let project of projects" id={{project.id}}>
+      <h3>{{ project.year }}</h3>
+      <p>{{ project. info }}</p>
+      <a href={{project.url}}>{{project.url}}</a>
+    </div>
+    <app-patents></app-patents>
+    <app-software></app-software>
+</div>

@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  display: flex;
+  margin-top: 3%;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+ul {
+  width: 100%;
+}
+
+li {
+  font-size: 14px;
+}
+
+app-divisions {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}

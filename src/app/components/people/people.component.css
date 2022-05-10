@@ -1,0 +1,116 @@
+.container {
+  width: 100%;
+  margin-top: 3%;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.people {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 3%;
+  width: 90%;
+}
+
+.card-body {
+  width: 100%;
+}
+
+#personImage {
+  width: 16%;
+  object-fit: cover;
+  float: left;
+  border-radius: 15px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  shape-margin: 10%;
+  margin: 1% 2%;
+}
+
+.card-footer {
+  margin-top: 3%;
+  width: 100%;
+  display: flex;
+}
+
+#platformImage {
+  height: 30px;
+  margin: 1% 2%;
+  object-fit: cover;
+  cursor: pointer;
+  background: white;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 6%;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 200;
+  margin: 2% 3%;
+  text-align: justify;
+}
+
+a {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+
+@media (max-width: 991px) {
+  .card {
+    width: 100%;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 20%;
+  }
+
+  .card-title {
+    margin-top: 2%;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 3%;
+  }
+
+  img {
+    width: 35%;
+  }
+
+  .card-title {
+    font-size: 18px;
+    margin-top: 3%;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 200;
+    margin: 3% 0%;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+}
