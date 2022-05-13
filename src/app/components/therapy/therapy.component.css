@@ -55,3 +55,39 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 990px) {
+  .container {
+    width: 90%;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  .imageVertical {
+    width: 40%;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    width: 95%;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .imageVertical {
+    width: 55%;
+  }
+  .imageHorizontal {
+    width: 75%;
+  }
+  span {
+    font-size: 12px;
+  }
+}

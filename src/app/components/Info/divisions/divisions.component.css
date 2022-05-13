@@ -47,3 +47,15 @@ p {
 .content p {
     font-size: 14px
 }
+
+@media (max-width: 990px) {
+  .container {
+    width: 50%;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    width: 90%;
+    margin-top: 5%;
+  }
+}

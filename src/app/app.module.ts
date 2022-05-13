@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { ContactComponent } from './components/contact/contact.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { NewsComponent } from './components/news/news.component';
@@ -24,7 +23,6 @@ import { TherapyComponent } from './components/therapy/therapy.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactComponent,
     MenuComponent,
     ProjectsComponent,
     NewsComponent,

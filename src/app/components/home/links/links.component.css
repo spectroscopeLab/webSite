@@ -22,16 +22,22 @@ p {
   cursor: pointer;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 990px) {
   .container {
     width: 80%;
     padding: 2%;
   }
+}
 
-  .links {
-    margin-top: 5%;
+@media (max-width: 550px) {
+  .container {
+    width: 100%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 5%;
   }
 }
+
 
 @media (max-width: 450px) {
   .container {

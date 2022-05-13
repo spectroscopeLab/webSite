@@ -63,7 +63,7 @@ p {
 }
 
 .luz {
-  width: 60%;
+  width: 80%;
   object-fit: cover;
   margin-bottom: 2%;
   border-radius: 15px;
@@ -75,8 +75,23 @@ span {
   text-align: center;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 990px) {
   .container {
     margin-top: 4%;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    width: 100%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .separacion {
+    width: 60%;
+  }
+  .ozono {
+    width: 70%;
   }
 }
