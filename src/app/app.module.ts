@@ -15,7 +15,6 @@ import { MisvisComponent } from './components/home/misvis/misvis.component';
 import { PeopleComponent } from './components/people/people.component';
 import { PatentsComponent } from './components/projects/patents/patents.component';
 import { SoftwareComponent } from './components/projects/software/software.component';
-import { IntroComponent } from './components/info/intro/intro.component';
 import { DivisionsComponent } from './components/Info/divisions/divisions.component';
 import { TherapyComponent } from './components/therapy/therapy.component';
 
@@ -34,7 +33,6 @@ import { TherapyComponent } from './components/therapy/therapy.component';
     PeopleComponent,
     PatentsComponent,
     SoftwareComponent,
-    IntroComponent,
     DivisionsComponent,
     TherapyComponent
   ],
